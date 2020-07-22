@@ -31,7 +31,7 @@ Route::get("/", function(){
 Route::post("/inicio", "LoginController@inicio");
 
 
-/*
+
 Route::get('/notas/{id}/editar', function ($id) {
     $note = DB::table('login')
         ->where('login', $id)
@@ -39,4 +39,3 @@ Route::get('/notas/{id}/editar', function ($id) {
  
     return ['note' => $note];
 });
-*/
