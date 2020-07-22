@@ -1,0 +1,63 @@
+[
+  {
+    "href": "dashboardIndex",
+    "title": "Inicio",
+    "icon": "mdi-home",
+    "params": {}
+  }, {
+    "href": "affiliateIndex",
+    "title": "Afiliados",
+    "icon": "mdi-account",
+    "permission": "show-affiliate",
+    "params": {}
+  }, {
+    "href": "flowIndex",
+    "title": "Préstamos",
+    "icon": "mdi-cash-multiple",
+    "permission": "show-loan",
+    "params": {}
+  }, {
+    "title": "Acceso",
+    "icon": "mdi-key",
+    "permission": "show-user",
+    "group": [
+      {
+        "href": "userIndex",
+        "title": "Usuarios",
+        "icon": "mdi-account-outline",
+        "permission": "show-user",
+        "role": "TE-admin",
+        "params": {}
+      }, {
+        "href": "roleIndex",
+        "title": "Roles",
+        "icon": "mdi-shield-lock-outline",
+        "permission": "show-role",
+        "params": {}
+      }
+    ]
+  }, {
+    "title": "Ajustes",
+    "icon": "mdi-cog",
+    "permission": "show-setting",
+    "group": [
+      {
+        "href": "procedureTypeLoanDestiny",
+        "title": "Destino de Préstamos",
+        "icon": "mdi-currency-usd-circle",
+        "params": {}
+      }, {
+        "href": "procedureTypeWorkflow",
+        "title": "Flujo de trabajo",
+        "icon": "mdi-chart-timeline-variant",
+        "params": {}
+      }
+    ]
+  }, {
+    "href": "recordIndex",
+    "title": "Actividad",
+    "icon": "mdi-format-list-checkbox",
+    "permission": "show-record",
+    "params": {}
+  }
+]

@@ -1,0 +1,16 @@
+{
+    "id": 33,
+    "procedure_type_id": 9,
+    "name": "Anticipo sector pasivo",
+    "shortened": "ANT-SP",
+    "is_valid": true,
+    "loan_modality_parameter": {
+        "procedure_modality_id": 33,
+        "debt_index": "90",
+        "quantity_ballots": 1,
+        "guarantors": 0,
+        "min_guarantor_category": null,
+        "max_guarantor_category": null,
+        "personal_reference": false
+    }
+}
