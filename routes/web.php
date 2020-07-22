@@ -31,7 +31,7 @@ Route::get("/", function(){
 Route::post("/inicio", "LoginController@inicio");
 
 
-
+//acceso a db
 Route::get('/notas/{id}/editar', function ($id) {
     $note = DB::table('login')
         ->where('login', $id)
